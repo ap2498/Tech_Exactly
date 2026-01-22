@@ -16,7 +16,7 @@ model=ChatGroq(api_key=os.getenv("API_KEY"),model="llama-3.1-8b-instant")
 SERVICE_ACCOUNT_FILE = "service_account.json"
 FOLDER_ID = "1patwlkTc1-OeuzOXJ2NZ_s91WsXdtcWg"
 DOWNLOAD_DIR = "downloads"
-
+LINK_DICT={}
 SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
 
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
@@ -34,7 +34,7 @@ query = f"'{FOLDER_ID}' in parents and trashed=false"
 
 response = service.files().list(
     q=query,
-    fields="files(id, name, mimeType)"
+    fields="files(id, name, mimeType,webViewLink, webContentLink)"
 ).execute()
 
 files = response.get("files", [])
@@ -50,9 +50,10 @@ for file in files:
     file_id = file["id"]
     name = file["name"]
     mime = file["mimeType"]
+    link= file['webViewLink']
 
     print(f"Downloading: {name}")
-
+    LINK_DICT[name]=link
     # Google Docs → export
     if mime.startswith("application/vnd.google-apps"):
         request = service.files().export_media(
@@ -116,10 +117,12 @@ def summarizer_bot():
         chain=prompt | model
         response=chain.invoke({'input':document_text})
 
+        g_drive_link=LINK_DICT[file]
         results.append({
             "summarizedContent": response.content,
             "originalFileName": file,
-            'originalFilePath':os.path.join(files_path,file)
+            'originalFilePath':os.path.join(files_path,file),
+            'googleDriveLink':g_drive_link
         })
 
     df=pd.DataFrame(results)
