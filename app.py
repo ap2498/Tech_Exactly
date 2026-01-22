@@ -117,7 +117,7 @@ def summarizer_bot():
         response=chain.invoke({'input':document_text})
 
         results.append({
-            "summarized_content": response.content,
+            "summarizedContent": response.content,
             "originalFileName": file,
             'originalFilePath':os.path.join(files_path,file)
         })

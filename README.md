@@ -21,5 +21,9 @@ It will look something like this **http://127.0.0.1:3000/summarizerBot**
 
 7.) Hit **Send** and wait for the result.
 
+
+### Output Fomat:
+The output will have keys **"status"**: which is the response status of the API **"message"**: which contaitns a generic message **"outputFilePath"** : which is the path of the output csv summary report file and **"list"**: which is a dictionary that has keys **"originalFileName"**: which is the name of the orginal file, **"originalFilePath"**:which is the path of the orginal file and **"summarizedContent"**: which is the summarized content of the file.
+
 ### Important:
 If the app crashes or stops in between please restart the app. It should work fine after that.
