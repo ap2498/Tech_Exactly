@@ -4,7 +4,7 @@
 Uses Langchain and llama-3.1-8b-instant to summarize documents. The google drive folder is linked to our code with service account credentials. The application at start downloads all files from the hardcoded folder id on google drive and saves it locally. Then according to the format of the file **(supported types: pdf, doc, rtf, txt, csv)** the contents are scanned and passed to the LLM which summarizes the content and saves them in an array which is later converted to a csv file with pandas. The output can be checked by postman by visitng the **summarizerBot** route with **GET** method.
 
 ### Step by Step Guide:
-1.) Open terminal/cmd from this project folder
+1.) Open terminal/cmd with this project folder as root.
 
 2.) Start your python virtual environment
 
