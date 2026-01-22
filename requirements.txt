@@ -10,11 +10,12 @@ google-auth-oauthlib
 langchain
 langchain-core
 langchain-community
+langchain-classic
 
 pypdf
 python-docx
-unstructured
 
+unstructured[all-docs]
 tiktoken
 
 langchain-groq
