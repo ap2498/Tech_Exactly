@@ -8,7 +8,7 @@ Uses Langchain and llama-3.1-8b-instant to summarize documents. The google drive
 
 https://drive.google.com/drive/folders/187vUfUPnI0RUFMQQqk3YPXwKBZDIpX2w?usp=drive_link 
 
-I have sent the .env file via email too. Please paste those files here as uploading these files in github will make them stop working due to GitGuardian. I have the sent the files to hr@techexactly.com. Please download fthem and paste them in the root folder. Make sure the **"."** is there in the **.env** file as downloading it will remove the **".""** so just rename it.
+I have sent the .env file via email too. Please paste those files here in the root folder as uploading these files in github will make them stop working due to GitGuardian. I have uploaded the files in the google drive folder. Please download them and paste them in the root folder. Make sure the **"."** is there in the **.env** file as downloading it will remove the **".""** so just rename it.
 
 1.) Open terminal/cmd with this project folder as root.
 
@@ -29,13 +29,30 @@ It will look something like this **http://127.0.0.1:3000/summarizerBot**
 
 
 ### Output Fomat:
-The output will have keys **"status"**: which is the response status of the API **"message"**: which contaitns a generic message **"outputFilePath"** : which is the path of the output csv summary report file and **"list"**: which is a dictionary that has keys **"originalFileName"**: which is the name of the orginal file, **"originalFilePath"**:which is the path of the orginal file and **"summarizedContent"**: which is the summarized content of the file and **"goolgleDriveLink"**: which will contain the link of the file on google drive. These fields are there in te final csv output file in key **"outputFilePath"**.
+The output will have keys: 
+
+**"status"**: which is the response status code of the API 
+
+**"message"**: which contaitns a generic message 
+
+**"outputFilePath"** : which is the path of the output csv summary report file and 
+
+**"list"**: which is a dictionary that has keys:
+
+ **"originalFileName"**: which is the name of the orginal file, 
+ 
+ **"originalFilePath"**:which is the path of the orginal file 
+ 
+ **"summarizedContent"**: which is the summarized content of the file and 
+ 
+ **"goolgleDriveLink"**: which will contain the link of the file on google drive. These fields are there in te final csv output file in key **"outputFilePath"**.
 
 ### Important:
 You can download the o-auth 2 credentials file and .env file from here 
 
 https://drive.google.com/drive/folders/187vUfUPnI0RUFMQQqk3YPXwKBZDIpX2w?usp=drive_link 
 
-I have sent the .env file via email too. Please paste those files here as uploading these files in github will make them stop working due to GitGuardian. I have the sent the files to hr@techexactly.com. Please download fthem and paste them in the root folder. Make sure the **"."** is there in the **.env** file as downloading it will remove the **".""** so just rename it.
+I have sent the .env file via email too. Please paste those files here in the root folder as uploading these files in github will make them stop working due to GitGuardian. I have uploaded the files in the google drive folder. Please download them and paste them in the root folder. Make sure the **"."** is there in the **.env** file as downloading it will remove the **".""** so just rename it.
+
 
 If the app crashes or stops in between please restart the app. It should work fine after that.
