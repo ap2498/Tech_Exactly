@@ -10,7 +10,7 @@ Uses Langchain and llama-3.1-8b-instant to summarize documents. The google drive
 
 https://drive.google.com/drive/folders/187vUfUPnI0RUFMQQqk3YPXwKBZDIpX2w?usp=drive_link 
 
-I have sent the .env file via email too. Please paste those files here in the root folder as uploading these files in github will make them stop working due to GitGuardian. I have uploaded the files in the google drive folder. Please download them and paste them in the root folder. Make sure the **"."** is there in the **.env** file as downloading it will remove the **".""** so just rename it.
+I have sent the .env file via email too. Please download and paste those files here in the root folder as uploading these files in github will make them stop working due to GitGuardian. I have uploaded the files in the google drive folder. Please download them and paste them in the root folder. Make sure the **"."** is there in the **.env** file as downloading it will remove the **".""** so just rename it.
 
 1.) Open terminal/cmd with this project folder as root.
 
