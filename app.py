@@ -13,13 +13,18 @@ from dotenv import load_dotenv
 load_dotenv()
 from flask import Flask, jsonify
 import pandas as pd
+import shutil
 
 app=Flask(__name__)
 model=ChatGroq(api_key=os.getenv("API_KEY"),model="llama-3.1-8b-instant")
 LINK_DICT={}
 FOLDER_ID = "1patwlkTc1-OeuzOXJ2NZ_s91WsXdtcWg"
-DOWNLOAD_DIR = "downloads"
+CURRENT_DIRECTORY=os.getcwd()
+DOWNLOAD_DIR = os.path.join(CURRENT_DIRECTORY,'downloads')
 SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
+
+if os.path.exists(DOWNLOAD_DIR):
+    shutil.rmtree(DOWNLOAD_DIR)
 
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
@@ -90,7 +95,7 @@ for file in files:
             if status:
                 print(f"  {int(status.progress() * 100)}%")
 
-print("✅ Download complete")
+print("Download complete")
 
 
 
@@ -103,6 +108,9 @@ def summarizer_bot():
     print(file_names)
     results=[]
     for file in file_names:
+        if file not in LINK_DICT:
+            print(f"Skipping File: {file}. Not present in Gdrive folder")
+            continue
         f_name,ext=os.path.splitext(file)
         print(ext)
         if ext=='.pdf':
@@ -133,7 +141,7 @@ def summarizer_bot():
         chain=prompt | model
         response=chain.invoke({'input':document_text})
 
-        g_drive_link=LINK_DICT[file]
+        g_drive_link=LINK_DICT.get(file) if LINK_DICT.get(file) else "Link not found. Please rerun the application."
         results.append({
             "summarizedContent": response.content,
             "originalFileName": file,
