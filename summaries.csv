@@ -1,103 +1,98 @@
 summarizedContent,originalFileName,originalFilePath,googleDriveLink
-"Based on the provided data, it appears to be a list of salaries corresponding to different years of experience. Here's a summary of the data:
+"Based on the provided data, it appears to be a regression analysis or a data set containing salary information in relation to years of experience. Here's a summary of the data:
 
-- The data spans from 1.1 years of experience to 10.5 years of experience.
-- The salary ranges from $39,343 to $1,219,872.
-- The salary generally increases with the years of experience.
-- There are a few instances where the salary appears to decrease with experience, but these are outliers in an otherwise upward trend.
-- The average annual increase in salary is not constant, but it does seem to increase as the years of experience increase.
-- The data suggests that there are significant salary jumps around 5-6 years of experience and again around 8-9 years of experience.
+- The data set contains salary information for individuals with varying years of experience, ranging from 1.1 to 10.5 years.
+- The average salary per year of experience from 1 to 10 years is not a simple linear calculation due to the nature of the data set, but if we look at the highest and lowest salaries provided for each range, we can derive a general pattern.
 
-If we need to find the relationship between years of experience and salary, we can try to find a curve fit for the data. However, based solely on the provided data, we can observe the general trend of increasing salary with experience.",Salary_Data.csv,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Salary_Data.csv,https://drive.google.com/file/d/1JZm2sf2gze8F5PN4JWqIcnxyRO-1Vh8q/view?usp=drivesdk
-"The document discusses the significance and power of food in our lives. It highlights how food:
+Here's a possible pattern:
 
-1. Fuels memory and emotion, often taking us back to fond childhood memories or special events.
-2. Reflects our culture and identity, with different types of food representing different aspects of our lives, such as street food, home-cooked meals, and fine dining.
-3. Plays a crucial role in social bonding, bringing people together around tables to share experiences and create connections.
-4. Is a universal language that can be understood by everyone, regardless of cultural or linguistic differences.
-5. Is not just about nourishment, but also about nourishing the soul and creating a sense of belonging.
+- Less than 2 years of experience: The lowest salary provided is $38,943, and the highest salary provided is $46,205. This suggests a salary range of around $7,262.
+- 2 to 4 years of experience: The lowest salary provided is $34,825, and the highest salary provided is $63,218. This suggests a salary range of around $28,393.
+- 4 to 8 years of experience: The lowest salary provided is $55,794, and the highest salary provided is $114,812. This suggests a salary range of around $59,018.
+- 8 to 10 years of experience: The lowest salary provided is $109,431, and the highest salary provided is $122,391. This suggests a salary range of around $12,960.
 
-Overall, the document celebrates the beauty and importance of food in our lives, emphasizing its ability to bring people together and create meaningful experiences.",Untitled document.txt,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Untitled document.txt,https://drive.google.com/file/d/1IMejEykoqGw-jEMr-Kmgq9QhntvbAWr-/view?usp=drivesdk
-"The document ""Food: More Than a Meal"" explores the significance of food beyond just nourishing the body. It highlights food's role in:
+It appears that salaries generally increase with years of experience, but the rate of increase may not be linear.",Salary_Data.csv,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Salary_Data.csv,https://drive.google.com/file/d/1JZm2sf2gze8F5PN4JWqIcnxyRO-1Vh8q/view?usp=drivesdk
+"The document highlights the significance of food in human culture and experience. It emphasizes how food:
 
-1. **Fostering memories and emotions**: A single bite can evoke memories of childhood, cultural traditions, and celebrations with loved ones.
-2. **Reflecting culture and identity**: Food is a reflection of where we come from and how we live, with different cuisines and cooking styles revealing unique cultural characteristics.
-3. **Being a social activity**: Sharing meals is a way to connect with others, form bonds, and create a sense of belonging.
-4. **Being an art form**: Fine dining combines texture, color, and technique to create an experience.
-5. **Being a language that everyone understands**: Food doesn't need translation, and its shared enjoyment can bring people together.
-6. **Nourishing the soul**: Food is not just about physical sustenance but also about emotional and spiritual nourishment.
+1. Evokes memories and emotions, connecting us to our past and the people we love.
+2. Reflects the culture, lifestyle, and traditions of different communities, from street food to fine dining.
+3. Plays a crucial role in shaping flavor and nutrition, with ingredients and preparation methods contributing to its unique character.
+4. Has a social aspect, bringing people together and fostering connections, bonds, and a sense of belonging.
+5. Serves as a universal language, transcending cultural and linguistic barriers.
 
-Ultimately, the document emphasizes that food is a universal language that can bring people together and provide a sense of connection, comfort, and community.",Untitled.rtf,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Untitled.rtf,https://drive.google.com/file/d/1uvG2k_pB7OcO5GK0zCvO6aZYZ-ySXVcA/view?usp=drivesdk
-"**Summary**
+Ultimately, the document suggests that food is not just about nourishment, but also about nourishing the soul, fostering connections, and creating shared experiences.",Untitled document.txt,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Untitled document.txt,https://drive.google.com/file/d/1IMejEykoqGw-jEMr-Kmgq9QhntvbAWr-/view?usp=drivesdk
+"The given document highlights the significance of food beyond just being a source of nutrition. It emphasizes that food plays a vital role in:
 
-Aditya Paul is a skilled computer science engineer with expertise in developing Generative and Agentic AI chatbots using Python. He has experience working as a Python Developer at Niche Integrated Techno Solution Private Limited, where he developed AI chatbot applications, enhanced large language models, and trained on techniques to fine-tune Large Language Models on custom datasets.
+1. **Fueling memories and emotions**: A single bite can evoke memories of childhood, culture, and connection with others.
+2. **Reflecting culture and tradition**: Food varies across the world, reflecting where we come from and how we live.
+3. **Being a social experience**: Food brings people together, creating a sense of belonging and forming bonds over shared meals.
+4. **Being a form of art**: Fine dining turns food into a culinary experience, where texture, color, and technique come together to create something special.
+5. **Being a language everyone understands**: Food requires no translation, and everyone can appreciate its beauty and significance.
 
-**Experience**
+The document also emphasizes the importance of ingredients, preparation methods, and the social aspect of food, highlighting that food is not just about nourishment but also about the soul.",Untitled.rtf,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Untitled.rtf,https://drive.google.com/file/d/1uvG2k_pB7OcO5GK0zCvO6aZYZ-ySXVcA/view?usp=drivesdk
+"**Summary: Aditya Paul**
 
-Aditya has worked on various projects and has experience in the following areas:
+Aditya Paul is a skilled computer science engineer with expertise in developing Generative and Agentic AI chatbots using Python. He has demonstrated experience in various technologies, including LangChain, LangGraph, Django, Flask, and REST APIs.
 
-1. **Python Development**: Developed REST APIs using Django and Flask frameworks, generated user interfaces using Streamlit, and acquired SQL proficiency.
-2. **AI Chatbot Development**: Developed AI chatbot applications using Python, encompassing Retrieval-Augmented Generation and reasoning capabilities.
-3. **Large Language Model Development**: Enhanced large language models with tools for tasks such as Wikipedia searches and SQL queries.
-4. **Database Management**: Utilized MySQL, PostgreSQL, and MongoDB for database management.
-5. **Frontend Development**: Developed websites using HTML5, CSS3, and Bootstrap, and utilized JavaScript and jQuery for document object manipulation.
+**Experience:**
 
-**Projects**
+1. **Python Developer**, Niche Integrated Techno Solution Private Limited (March 2025 - Current)
+	* Developed REST APIs in Python using Django and Flask frameworks.
+	* Generated user interfaces using Streamlit to enhance interactivity.
+	* Acquired SQL proficiency to comprehend functionality of Django Object Relational Mapping (ORM).
+	* Developed AI chatbot applications using Python, encompassing Retrieval-Augmented Generation and reasoning capabilities.
+2. **PHP Developer**, Iotivity Communications Private Limited (August 2024 - November 2024)
+	* Developed REST APIs using CodeIgniter 3 and CodeIgniter 4 frameworks.
+	* Designed websites employing HTML5, CSS3, and Bootstrap for responsive layouts.
+	* Strong understanding of SQL to comprehend and interact with CodeIgniter Object-Relational Mapping (ORM).
+3. **PHP Developer Intern**, Softech ERP Solution Private Limited (June 2024 - August 2024)
+	* Developed website designs utilising Hypertext Markup Language 5, Cascading Style Sheets 3, and Bootstrap.
+	* Developed raw SQL queries to interact effectively with database using PHP.
+	* Wrote core PHP code to manage backend logic efficiently.
 
-Aditya has worked on several projects, including:
+**Projects:**
 
-1. **API-Integrated Business AI Chatbot**: Developed a multi-agent AI-powered role-based chatbot with dynamic access control to multiple internal tools.
-2. **AI-Driven CV Enhancement System**: Engineered an automated CV-improvement system that leverages LLMs to generate refined, job-aligned resumes.
-3. **AI-Based Candidate Profile Recommendation System**: Built an intelligent candidate recommendation system that leverages Large Language Models (LLMs) to accurately match job requirements with candidate profiles.
-4. **Accounting Software**: Developed an accounting and inventory management system to streamline company operations.
-5. **Telecom Software System**: Implemented search functionality to retrieve customer records by IMEI and ICCID numbers.
+1. **API-Integrated Business AI Chatbot**
+	* Developed a Multi-Agent AI-powered role-based chatbot with dynamic access control to multiple internal tools.
+	* Designed a centralized orchestrator agent with modular handoffs to specialized sub-agents.
+2. **AI-Driven CV Enhancement System**
+	* Engineered an automated CV-improvement system that leverages LLMs to generate refined, job-aligned resumes.
+	* Designed a workflow where candidate CVs are parsed, cleaned, and pre-processed before being passed to a Large Language Model.
+3. **AI-Based Candidate Profile Recommendation System**
+	* Built an intelligent candidate recommendation system that leverages Large Language Models (LLMs) to accurately match job requirements with candidate profiles.
 
-**Education**
+**Education:**
 
-Aditya holds a Bachelor of Technology degree in Computer Science and Engineering from the Institute of Engineering and Management. He has also completed certifications in Python, SQL, JavaScript, and Software Engineering from HackerRank.
+1. **Bachelor of Technology: Computer Science and Engineering**, Institute of Engineering and Management (2020)
+	* Learned theory subjects like Engineering Mathematics, Database Management Systems, and Cyber Law and Security Policy.
+	* Studied and practised practical subjects like Object Oriented Programming, Computer Architecture, and Data Structures and Algorithms.
 
-**Skills**
+**Certifications:**
 
-Aditya's skills include:
+1. **Python Certification** from HackerRank
+2. **SQL Certification** from HackerRank
+3. **JavaScript Certification** from HackerRank
+4. **Software Engineer Certification** from HackerRank",Aditya_Paul_CV.pdf,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Aditya_Paul_CV.pdf,https://drive.google.com/file/d/1Bm3wvF2lWFnF1gEReQEjd8LoGyQFWxzh/view?usp=drivesdk
+"Here's a summary of Aditya Paul's professional document:
 
-1. **Python**: Expertise in developing Generative and Agentic AI chatbots using Python.
-2. **AI**: Experience in developing AI chatbot applications, enhancing large language models, and training on techniques to fine-tune Large Language Models on custom datasets.
-3. **Database Management**: Proficient in MySQL, PostgreSQL, and MongoDB.
-4. **Frontend Development**: Skilled in developing websites using HTML5, CSS3, and Bootstrap, and utilizing JavaScript and jQuery for document object manipulation.
-5. **REST API Development**: Experience in developing REST APIs using Django and Flask frameworks.",Aditya_Paul_CV.pdf,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Aditya_Paul_CV.pdf,https://drive.google.com/file/d/1Bm3wvF2lWFnF1gEReQEjd8LoGyQFWxzh/view?usp=drivesdk
-"**Summary of Aditya Paul's Document**
+**Summary:**
+Aditya Paul is a 5-year experienced data professional with expertise in Generative AI (GenAI), Large Language Models (LLM), Machine Learning (ML), and Data Analysis. He is proficient in Python and has a strong background in developing, deploying, and optimizing AI/ML models.
 
-Aditya Paul is a data professional with 5 years of experience in IT, specializing in Generative AI (GenAI), Large Language Models (LLM), Machine Learning (ML), and Data Analysis. He is proficient in Python and has a strong background in developing, deploying, and optimizing AI/ML models. Here are the key points from his document:
+**Professional Experience:**
+Aditya worked as a Junior Python Developer at Niche Integrated Techno Solution Private Limited from 2020 to present. His key responsibilities included:
 
-**Professional Experience**
+* Developing REST APIs using Django and Flask frameworks
+* Developing and deploying hybrid AI solutions leveraging vector similarity search and Retrieval-Augmented Generation (RAG)
+* Developing stateful, multi-actor, and multi-modal chatbot applications using LangGraph
 
-- Aditya worked as a Junior Python Developer at Niche Integrated Techno Solution Private Limited from 2020 to present.
-- He developed REST APIs using Django and Flask frameworks, and deployed hybrid AI solutions using vector similarity search and Retrieval-Augmented Generation (RAG) to enhance chatbot responses.
-- He is skilled in developing stateful, multi-actor, and multi-modal chatbot applications using LangGraph.
+**Projects:**
+Aditya has worked on two notable projects:
 
-**Projects**
+1. **AI-Powered Business Chatbot System:** A chatbot system that provides intelligent assistance for business license and clearance applications. It integrates Milvus vector search with an RAG fallback for accurate query responses.
+2. **Multiple Documents Q&A Chatbot application using OpenAI:** A chatbot application that efficiently retrieves information from various documents, handling PDFs, images, DOCX, TXT, CSV, and XLSX formats.
 
-- Aditya worked on two projects:
-  1. AI-Powered Business Chatbot System: This project integrated Milvus vector search with an RAG fallback for accurate query responses and supported real-time status tracking and multi-step guided navigation.
-  2. Multiple Documents Q&A Chatbot application using OpenAI: This project efficiently retrieves information from various documents, handling PDFs, images, DOCX, TXT, CSV, and XLSX formats, using OCR and text processing.
+**Skills:**
+Aditya is proficient in Python, JavaScript, HTML5, CSS3, and various Python frameworks and libraries. His technical skills include ML Models, GenAI, Open AI, LLM, Langchain, Vector DB, RAG, Chatbot, Prompt Engineering, and LLM Fine Tuning. He is also proficient in SQL, Oracle, SQLite, and analytical tools like Power BI and Advanced Excel.
 
-**Skills**
-
-- Programming languages: Python, JavaScript, Html5, Css3
-- Python frameworks: Django, Flask, Langchain, Langgraph
-- Python libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-- Technical skills: ML Models, GenAI, Open AI, LLM, Langchain, Vector DB, RAG, Chatbot, Prompt Engineering, LLM Fine Tuning
-- Database: SQL, ORACLE, SQLite
-- Analytical tools: Power BI, Advanced Excel
-- Version control: Git, Github
-- Soft skills: Analytical thinking, creativity, communication skills, adaptability, teamwork
-
-**Education**
-
-- B. Tech in Computer Science and Engineering from Institute of Engineering and Management (MAKAUT) from 2016 to 2020.
-
-**Certifications**
-
-- Python Certification from Hackerrank
-- SQL Certification from Hackerrank
-- Software Engineer Certification from Hackerrank",Aditya Paul.docx,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Aditya Paul.docx,https://docs.google.com/document/d/1JKBAbHmPZeIBSUXKz6AQuvLQgQTzmJbI/edit?usp=drivesdk&ouid=113233328033673483490&rtpof=true&sd=true
+**Education and Certifications:**
+Aditya holds a B. Tech degree in Computer Science and Engineering from Institute of Engineering and Management (MAKAUT). He has also obtained certifications in Python, SQL, and Software Engineering from Hackerrank.",Aditya Paul.docx,/Users/adityapaul2498/Library/Mobile Documents/com~apple~CloudDocs/Coding/tech_exactly_assignment/downloads/Aditya Paul.docx,https://docs.google.com/document/d/1JKBAbHmPZeIBSUXKz6AQuvLQgQTzmJbI/edit?usp=drivesdk&ouid=113233328033673483490&rtpof=true&sd=true

@@ -1,6 +1,9 @@
 import os
 import io
-from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 from langchain_classic.document_loaders import PyPDFLoader, UnstructuredWordDocumentLoader, TextLoader, CSVLoader, UnstructuredRTFLoader
@@ -13,22 +16,35 @@ import pandas as pd
 
 app=Flask(__name__)
 model=ChatGroq(api_key=os.getenv("API_KEY"),model="llama-3.1-8b-instant")
-SERVICE_ACCOUNT_FILE = "service_account.json"
+LINK_DICT={}
 FOLDER_ID = "1patwlkTc1-OeuzOXJ2NZ_s91WsXdtcWg"
 DOWNLOAD_DIR = "downloads"
-LINK_DICT={}
 SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
 
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
+creds = None
 
-credentials = service_account.Credentials.from_service_account_file(
-    SERVICE_ACCOUNT_FILE,
-    scopes=SCOPES
-)
+# token.json stores user's access & refresh tokens
+if os.path.exists("token.json"):
+    creds = Credentials.from_authorized_user_file("token.json", SCOPES)
 
-service = build("drive", "v3", credentials=credentials)
+# If no valid credentials, do OAuth login
+if not creds or not creds.valid:
+    if creds and creds.expired and creds.refresh_token:
+        creds.refresh(Request())
+    else:
+        flow = InstalledAppFlow.from_client_secrets_file(
+            "credentials.json",
+            SCOPES
+        )
+        creds = flow.run_local_server(port=0)
 
+    # Save token for future runs
+    with open("token.json", "w") as token:
+        token.write(creds.to_json())
+
+service = build("drive", "v3", credentials=creds)
 
 query = f"'{FOLDER_ID}' in parents and trashed=false"
 
